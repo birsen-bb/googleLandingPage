@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.header {
+    padding: 1rem;
+   
+    
+
+}
+.header_right{
+    float: right;
+    text-decoration: none;
+    
+}
+header_left{
+    float: left;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem;
+    opacity: 0.7;
+}
+.header_right_appicon{
+    vertical-align: middle;
+    opacity: 0.8;
+}
+
+.header_right_appicon :hover{
+    opacity: 1;
+    text-decoration: none;
+    
+
+}
+.button{
+    color: whi;
+    background-color: #3f76cd;
+    border: none;
+   padding: 7px;
+    margin: 7px;
+    border-radius: 3px; 
+    color: white; 
+    
+    
+}
+.button:hover{
+    cursor: pointer;
+    background-color: #2f72df;
+    color: white;
+}
+.logo{
+    margin: 200px auto 64px;
+    display: block;
+    
+    
+}
+.searchBar{
+    /* text-align:center; */
+    margin:30px auto;
+    /* display: inline-block; */
+    border: 1px solid rgb(221, 221, 221);
+    width: fit-content;
+    border-radius: 24px;
+    padding:10px;
+    height:50px;
+}
+
+.searchBar:hover{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+
+.searchBar img{
+    height: 24px;
+    margin:3px;
+}
+
+.searchBar > input{
+    width: 450px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    height:28px;
+    vertical-align:top;
+}
+
+
+
+
+.main_button{
+    text-align: center;
+    margin-top: 6px;
+}
+.main_button_left,
+.main_button_right{
+    background-color: rgb(190, 182, 182);
+padding: 3px;
+border: none;
+border-radius: 3px;
+border: 1px solid transparent;
+
+}
+.float1 {
+    float: left;
+    display: block;
+
+
+}
+
+.ftr1{
+    float: left;
+    display: block;
+
+}
+
+.ftr2 {
+    float: right;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 14px 16px;
+}
+
+footer {
+ 
+    height: 30px;
+    margin-bottom: 0;
+    margin-top: 38vh;
+}
+
+    
+
